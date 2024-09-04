@@ -1,0 +1,30 @@
+{
+  "name": "venmo-bot",
+  "version": "1.0.0",
+  "description": "A script used to automate sending venmo requests through Venmo's website using Puppeteer.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blake Stokes",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "body-parser": "^1.20.2",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.0",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^6.6.2",
+    "pepper-mint": "^1.2.1",
+    "puppeteer": "^23.2.2",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.4.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "request": "^2.34.0",
+    "sequelize": "^6.15.0",
+    "tunnel-ssh": "^4.1.6",
+    "user-agents": "^1.0.917"
+  }
+}
